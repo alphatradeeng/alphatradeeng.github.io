@@ -1,6 +1,6 @@
 baseURL = "https://alphatradeengineering.com/"
 title = 'Alpha Trade Engineering'
-languageCode = "en"
+languageCode = "en-us"
 defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
