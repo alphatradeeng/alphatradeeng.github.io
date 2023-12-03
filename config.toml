@@ -1,0 +1,130 @@
+baseURL = "https://alphatradeengineering.com/"
+title = 'Alpha Trade Engineering'
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancytitle = '<img height="128" src="/images/logo.svg" alt="Logo"/><br />Aplha Trade Engineering'
+copyright = "Alpha Trade Engineering LLC. All Rights Reserved."
+startbuttonLink = "#contact"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[languages.en]
+weight = 10
+languageName = "English"
+description = "Welcome to Alpha Trade Engineering, where cutting-edge technology meets financial innovation."
+startbuttonText = "Inquiries"
+
+# menu
+
+## english
+
+[[languages.en.params.menu.main]]
+url = '/'
+title = "Home"
+
+
+# first section
+## english
+
+[languages.en.one]
+enable = true
+title = 'Pioneers in powerful yet simple trading strategies'
+body = "We are a pioneering quantitative trading firm harnessing the power of artificial intelligence, data science, and advanced analytics to craft a diverse range of trading strategies. Our team of experts combines deep industry knowledge with state-of-the-art technology to navigate the dynamic landscape of financial markets. Whether you're an experienced investor or exploring the world of algorithmic trading, Alpha Trade Engineering employs sophisticated tools and insights to thrive in the ever-evolving world of quantitative finance. Join us on the forefront of financial technology, where precision and innovation redefine the future of trading."
+
+[[languages.en.one.icon]]
+#icon = "fa-wheelchair-alt"
+style = "1"
+label = "for wheelchair users"
+
+[[languages.en.one.icon]]
+#icon = "fa-clock-o"
+style = "2"
+label = "fast setup"
+
+[[languages.en.one.icon]]
+#icon = "fa-wrench"
+style = "3"
+label = "no tools"
+
+# second section
+## english
+
+[languages.en.two]
+enable = false
+title = "Meet the Team"
+body = 'Combined decades experience for that perfect balance of business strategy and technology.'
+
+
+[[languages.en.two.section]]
+#img = "images/start/ganz.jpg"
+title = 'Easy to use'
+body = 'Kegelschiene is foolproof to use: <br />Just put on the shoulder support, put the ball in the deepening and you can start with a lot of momentum!'
+
+[[languages.en.two.section]]
+img = "images/start/zerlegt.jpg"
+title = 'modular system'
+body = 'Kegelschiene consists of 5 parts, which can be connected by plugging into each other without using tools.'
+
+[[languages.en.two.section]]
+img = "images/start/sport.jpg"
+title = 'use in leisure or integration'
+	body = 'Kegelschiene can also be used for other activities. Whether it’s leisure games such as bowling pool (picture), or inclusion in school sports: there are no limits to creativity.'
+
+[[languages.en.two.section]]
+img = "images/start/start-ab.jpg"
+title = 'Start Ab system'
+body = 'With our Start Ab system people with severe impairment of their hand movement are also able to use Kegelschiene to play ninepins or go bowling. You can find a demonstration of the Start Ab system in <a href="https://www.youtube.com/watch?v=v9Uf89DnLCw">this video</a>.'
+
+# third section
+
+## english
+
+[languages.en.three]
+enable = true
+title = "Meet the Team"
+body = 'Combined decades experience for that perfect balance of business strategy and technology.'
+
+[[languages.en.three.feature]]
+img = "images/jim.jpg"
+title = "Jim Stephanou, CEO"
+
+[[languages.en.three.feature]]
+img = "images/jamie.jpg"
+title = "Jamie Kurtz, CTO"
+
+
+# buy or die
+
+## english
+
+[languages.en.cta]
+enable = false
+title = "Wanna play ninepins?"
+	body = "Here you can buy Kegelschiene or – to find out more – have a look at some pictures in our gallery."
+
+[[languages.en.cta.link]]
+href = "#contact"
+text = "Contact"
+special = true
+
+[[languages.en.cta.link]]
+href = "https://gallery.kegelschiene.net/"
+text = "Gallery"
+special = false
+
+[languages.en.contact]
+enable = true
+title = "Inquiries"
+#phone = "+49 (0) 9848 744"
+email = "info@alphatradeengineering.com"
+#body = 'Contact us for questions and orders. <a href="/pricing/">You cand find out more about the <strong>pricing</strong> here</a>. Please remember to mention your address and payment details in your order.'
+address = "3740 N Mozart St. </br>Chicago, IL 60618"
+subject = "Investment inquries"
+formspree_form_id = "123ijd"
+
+
