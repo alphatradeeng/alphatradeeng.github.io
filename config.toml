@@ -6,7 +6,7 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancytitle = '<img height="128" src="/images/logo.svg" alt="Logo"/><br />Aplha Trade Engineering'
+fancytitle = '<img height="128" src="/images/logo.png" alt="Logo"/><br />Aplha Trade Engineering'
 copyright = "Alpha Trade Engineering LLC. All Rights Reserved."
 startbuttonLink = "#contact"
 
@@ -90,12 +90,19 @@ title = "Meet the Team"
 body = 'Combined decades experience for that perfect balance of business strategy and technology.'
 
 [[languages.en.three.feature]]
-img = "images/jim.jpg"
-title = "Jim Stephanou, CEO"
+img = "images/jim.jpeg"
+title = "Jim Stephanou"
+body = "Chief Executive Officer"
 
 [[languages.en.three.feature]]
-img = "images/jamie.jpg"
-title = "Jamie Kurtz, CTO"
+img = "images/david.jpeg"
+title = "David Juday"
+body = "Chief Investment Officer"
+
+[[languages.en.three.feature]]
+img = "images/jamie.jpeg"
+title = "Jamie Kurtz"
+body = "Chief Techology Officer"
 
 
 # buy or die
