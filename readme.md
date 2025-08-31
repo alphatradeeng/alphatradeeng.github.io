@@ -1,5 +1,5 @@
 
-First you need to [install Hugo](https://gohugo.io/installation/linux/). You can read the Hugo docs for help.
+First you need to [install Hugo v0.128.0](https://github.com/gohugoio/hugo/releases/tag/v0.128.0). You can read the Hugo docs for help.
 
 This repo uses GitHub Actions for build and deployment.
 
