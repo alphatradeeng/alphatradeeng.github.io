@@ -1,12 +1,12 @@
 baseURL = "https://alphatradeengineering.com/"
-title = 'Alpha Trade Engineering'
+title = 'Alpha Trade Engineering LLC'
 languageCode = "en-us"
 defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
 
 [params]
-fancytitle = '<img height="128" src="/images/logo.png" alt="Logo"/><br />Aplha Trade Engineering'
+fancytitle = '<img height="128" src="/images/logo.png" alt="Logo"/><br />Aplha Trade Engineering LLC'
 copyright = "Alpha Trade Engineering LLC. All Rights Reserved."
 startbuttonLink = "#contact"
 
@@ -16,7 +16,7 @@ unsafe = true
 [languages.en]
 weight = 10
 languageName = "English"
-description = "Welcome to Alpha Trade Engineering, where cutting-edge technology meets financial innovation."
+description = "Welcome to Alpha Trade Engineering, LLC, a systematic multi-strategy hedge fund applying quantitative research to global markets."
 startbuttonText = "Inquiries"
 
 # menu
@@ -27,58 +27,73 @@ startbuttonText = "Inquiries"
 url = '/'
 title = "Home"
 
+[[languages.en.params.menu.main]]
+url = '/#one'
+title = "About Us"
+
+[[languages.en.params.menu.main]]
+url = '/#two'
+title = "Different"
+
+[[languages.en.params.menu.main]]
+url = '/#three'
+title = "The Team"
+
 
 # first section
 ## english
 
 [languages.en.one]
 enable = true
-title = 'Pioneers in powerful yet simple trading strategies'
-body = "We are a pioneering quantitative trading firm harnessing the power of artificial intelligence, data science, and advanced analytics to craft a diverse range of trading strategies. Our team of experts combines deep industry knowledge with state-of-the-art technology to navigate the dynamic landscape of financial markets. Whether you're an experienced investor or exploring the world of algorithmic trading, Alpha Trade Engineering employs sophisticated tools and insights to thrive in the ever-evolving world of quantitative finance. Join us on the forefront of financial technology, where precision and innovation redefine the future of trading."
+title = 'About Us'
+body = "A multi-strategy systematic fund built to generate uncorrelated alpha across volatility, macro, and equity markets — with strategies proven to perform in the most challenging market regimes.<br><br>At Alpha Trade Engineering, we combine deep quantitative research with disciplined execution to deliver consistent, risk-managed returns. Our approach reflects over a decade of quantitative portfolio management experience, a verifiable long-term live track record, and the agility of a founder-led firm."
 
-[[languages.en.one.icon]]
-#icon = "fa-wheelchair-alt"
-style = "1"
-label = "for wheelchair users"
 
-[[languages.en.one.icon]]
-#icon = "fa-clock-o"
-style = "2"
-label = "fast setup"
-
-[[languages.en.one.icon]]
-#icon = "fa-wrench"
-style = "3"
-label = "no tools"
-
+#[[languages.en.one.icon]]
+##icon = "fa-wheelchair-alt"
+#style = "1"
+#label = "for wheelchair users"
+#
+#[[languages.en.one.icon]]
+##icon = "fa-clock-o"
+#style = "2"
+#label = "fast setup"
+#
+#[[languages.en.one.icon]]
+##icon = "fa-wrench"
+#style = "3"
+#label = "no tools"
+#
 # second section
 ## english
 
 [languages.en.two]
-enable = false
-title = "Meet the Team"
-body = 'Combined decades experience for that perfect balance of business strategy and technology.'
+enable = true
+title = "What Makes Us Different"
+#body = "What Makes Us Different"
+#body = 'The Fund Managers’ track record includes delivering a 28% net compound annual return over nearly 10 years, with assets under management ranging from $20M to over $100M.'
 
 
 [[languages.en.two.section]]
-#img = "images/start/ganz.jpg"
-title = 'Easy to use'
-body = 'Kegelschiene is foolproof to use: <br />Just put on the shoulder support, put the ball in the deepening and you can start with a lot of momentum!'
+img = "images/pic1.png"
+#title = 'Easy to use'
+body = "Multi-Strategy Depth: Most emerging managers launch with a single idea. We begin with three distinct, research-backed strategies — Volatility, Systematic Macro, and Intraday Trend Capture — all proven to be uncorrelated with the broader market, and each designed to capture different market opportunities and reduce reliance on any one source of returns."
 
 [[languages.en.two.section]]
-img = "images/start/zerlegt.jpg"
-title = 'modular system'
-body = 'Kegelschiene consists of 5 parts, which can be connected by plugging into each other without using tools.'
+img = "images/pic2.png"
+#title = 'modular system'
+body = "Resilience in Challenging Markets: Our models are specifically engineered for stressed environments — when volatility spikes, correlations break down, and liquidity thins. By design, the Fund is positioned to seek opportunities precisely when many strategies falter."
 
 [[languages.en.two.section]]
-img = "images/start/sport.jpg"
-title = 'use in leisure or integration'
-	body = 'Kegelschiene can also be used for other activities. Whether it’s leisure games such as bowling pool (picture), or inclusion in school sports: there are no limits to creativity.'
+img = "images/pic3.png"
+#title = 'use in leisure or integration'
+body = "Institutional Rigor, Boutique Agility: Our leadership team brings over a decade of experience managing institutional money leveraging our advanced analytical techniques and resulting quantitative strategies. We apply that same rigor to portfolio construction and risk management, while maintaining the agility to capitalize on inefficiencies overlooked by larger firms."
 
 [[languages.en.two.section]]
-img = "images/start/start-ab.jpg"
-title = 'Start Ab system'
-body = 'With our Start Ab system people with severe impairment of their hand movement are also able to use Kegelschiene to play ninepins or go bowling. You can find a demonstration of the Start Ab system in <a href="https://www.youtube.com/watch?v=v9Uf89DnLCw">this video</a>.'
+img = "images/pic4.png"
+#title = 'Start Ab system'
+body = "Uncorrelated Alpha: By blending strategies across volatility carry, macro factor trends, and intraday equity dispersion, we deliver genuinely uncorrelated sources of alpha. The result is a more balanced, diversifying return stream for investors seeking alternatives beyond traditional equity and hedge fund exposures."
+
 
 # third section
 
@@ -87,22 +102,22 @@ body = 'With our Start Ab system people with severe impairment of their hand mov
 [languages.en.three]
 enable = true
 title = "Meet the Team"
-body = 'Combined decades experience for that perfect balance of business strategy and technology.'
+body = "The Fund Managers’ track record includes delivering a 28% net compound annual return over nearly 10 years, with assets under management ranging from $20M to over $100M."
 
 [[languages.en.three.feature]]
 img = "images/jim.jpeg"
 title = "Jim Stephanou"
-body = "Chief Executive Officer"
+body = "Chief Executive Officer<br><br>Mr. Stephanou shares leadership responsibilities for research and development, with a focus on designing and refining quantitative trading strategies. He has deep expertise in financial analysis, advanced statistical and econometric analysis, artificial intelligence and machine learning, and multi-asset trading. Jim is passionate about applying cutting-edge analytical techniques in finding true alpha.<br><br>He holds a BS in Business Administration from the University of Illinois at Urbana–Champaign and an MBA in Finance, Strategy, and International Business from the Kellogg School of Management at Northwestern University"
 
 [[languages.en.three.feature]]
 img = "images/david.jpeg"
 title = "David Juday"
-body = "Chief Investment Officer"
+body = "Chief Investment Officer<br><br>Mr. Juday shares leadership responsibilities for Portfolio Management, overseeing strategy design, refinement, and the research and development of new systematic approaches. He brings over a decade of specialized expertise in long/short volatility and systematic macro strategies, with a history of delivering strong, risk-adjusted returns across diverse market regimes.<br><br>He holds an MBA in Finance from Missouri State University. Earlier in his career, he also pursued advanced theological studies, earning both a BA and a Master of Divinity"
 
 [[languages.en.three.feature]]
 img = "images/jamie.jpeg"
 title = "Jamie Kurtz"
-body = "Chief Techology Officer"
+body = "Chief Techology Officer<br><br>Mr. Kurtz is responsible for all technology and operations at the Fund, including the research and development platform and API-based trade execution systems. He also oversees the Fund’s cloud-based, high-volume data architecture, supporting advanced analytics and secure data storage. In addition, he leads performance monitoring and reporting.<br><br>He holds a BS in Physics, Mathematics, and Computer Science from Western Michigan University."
 
 
 # buy or die
